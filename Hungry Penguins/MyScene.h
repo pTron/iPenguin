@@ -8,6 +8,10 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface MyScene : SKScene
+@interface MyScene : SKScene <SKPhysicsContactDelegate>
+
+@property (strong, nonatomic)SKSpriteNode *penguin;
+@property (strong, nonatomic)SKEmitterNode *bubbles;
+
 
 @end

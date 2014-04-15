@@ -18,13 +18,15 @@
 		CE0E433A18D5011300B26E61 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0E433818D5011300B26E61 /* Main_iPad.storyboard */; };
 		CE0E433D18D5011300B26E61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0E433C18D5011300B26E61 /* ViewController.m */; };
 		CE0E434018D5011300B26E61 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0E433F18D5011300B26E61 /* MyScene.m */; };
-		CE0E434218D5011300B26E61 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0E434118D5011300B26E61 /* Spaceship.png */; };
 		CE0E434418D5011300B26E61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0E434318D5011300B26E61 /* Images.xcassets */; };
 		CE0E434B18D5011300B26E61 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E434A18D5011300B26E61 /* XCTest.framework */; };
 		CE0E434C18D5011300B26E61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E432118D5011200B26E61 /* Foundation.framework */; };
 		CE0E434D18D5011300B26E61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E432518D5011300B26E61 /* UIKit.framework */; };
 		CE0E435518D5011300B26E61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE0E435318D5011300B26E61 /* InfoPlist.strings */; };
 		CE0E435718D5011300B26E61 /* Hungry_PenguinsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0E435618D5011300B26E61 /* Hungry_PenguinsTests.m */; };
+		CE0E436118D5024500B26E61 /* Penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0E436018D5024500B26E61 /* Penguin.png */; };
+		CE0E436318D5337A00B26E61 /* PenguinSide.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0E436218D5337A00B26E61 /* PenguinSide.png */; };
+		CE0E436618D5D87600B26E61 /* PenguinSideSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0E436518D5D87600B26E61 /* PenguinSideSmall.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,13 +57,15 @@
 		CE0E433C18D5011300B26E61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CE0E433E18D5011300B26E61 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		CE0E433F18D5011300B26E61 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		CE0E434118D5011300B26E61 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		CE0E434318D5011300B26E61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CE0E434918D5011300B26E61 /* Hungry PenguinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hungry PenguinsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0E434A18D5011300B26E61 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CE0E435218D5011300B26E61 /* Hungry PenguinsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hungry PenguinsTests-Info.plist"; sourceTree = "<group>"; };
 		CE0E435418D5011300B26E61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE0E435618D5011300B26E61 /* Hungry_PenguinsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hungry_PenguinsTests.m; sourceTree = "<group>"; };
+		CE0E436018D5024500B26E61 /* Penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Penguin.png; sourceTree = "<group>"; };
+		CE0E436218D5337A00B26E61 /* PenguinSide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PenguinSide.png; sourceTree = "<group>"; };
+		CE0E436518D5D87600B26E61 /* PenguinSideSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PenguinSideSmall.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,7 @@
 		CE0E432918D5011300B26E61 /* Hungry Penguins */ = {
 			isa = PBXGroup;
 			children = (
+				CE0E436418D53A8F00B26E61 /* Penguin.atlas */,
 				CE0E433218D5011300B26E61 /* AppDelegate.h */,
 				CE0E433318D5011300B26E61 /* AppDelegate.m */,
 				CE0E433518D5011300B26E61 /* Main_iPhone.storyboard */,
@@ -131,7 +136,6 @@
 				CE0E433C18D5011300B26E61 /* ViewController.m */,
 				CE0E433E18D5011300B26E61 /* MyScene.h */,
 				CE0E433F18D5011300B26E61 /* MyScene.m */,
-				CE0E434118D5011300B26E61 /* Spaceship.png */,
 				CE0E434318D5011300B26E61 /* Images.xcassets */,
 				CE0E432A18D5011300B26E61 /* Supporting Files */,
 			);
@@ -165,6 +169,16 @@
 				CE0E435318D5011300B26E61 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE0E436418D53A8F00B26E61 /* Penguin.atlas */ = {
+			isa = PBXGroup;
+			children = (
+				CE0E436518D5D87600B26E61 /* PenguinSideSmall.png */,
+				CE0E436218D5337A00B26E61 /* PenguinSide.png */,
+				CE0E436018D5024500B26E61 /* Penguin.png */,
+			);
+			name = Penguin.atlas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,11 +257,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE0E434218D5011300B26E61 /* Spaceship.png in Resources */,
 				CE0E434418D5011300B26E61 /* Images.xcassets in Resources */,
 				CE0E433A18D5011300B26E61 /* Main_iPad.storyboard in Resources */,
+				CE0E436618D5D87600B26E61 /* PenguinSideSmall.png in Resources */,
 				CE0E433718D5011300B26E61 /* Main_iPhone.storyboard in Resources */,
 				CE0E432E18D5011300B26E61 /* InfoPlist.strings in Resources */,
+				CE0E436118D5024500B26E61 /* Penguin.png in Resources */,
+				CE0E436318D5337A00B26E61 /* PenguinSide.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +506,7 @@
 				CE0E435C18D5011300B26E61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE0E435D18D5011300B26E61 /* Build configuration list for PBXNativeTarget "Hungry PenguinsTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +515,7 @@
 				CE0E435F18D5011300B26E61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
